@@ -14,12 +14,10 @@ export const NecessaryStepsForm = () => {
       docsUrl:
         "https://orgfarm-803648dab5-dev-ed.develop.my.salesforce.com/docs",
       authType: "oauth2",
-      clientId:
-        "3MVG9dAEux2v1sLsZOO9.N8y7bqvdcv1qFGnASfTzSBJYsKOYJLUO.hkDD0zHHsQocgzoOCIufG1Dl0LFt0E7",
-      clientSecret:
-        "0BBEA9D557B170B5C302EF279F2E8B683934B98161F1AD46E7912877DCC87897",
-      username: "georgekrissak326@agentforce.com",
-      password: "Juraj20018cgs8F0957PcPv15bNGqyh5q",
+      clientId: "",
+      clientSecret: "",
+      username: "",
+      password: "",
     },
   });
 

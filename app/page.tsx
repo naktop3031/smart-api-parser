@@ -13,10 +13,10 @@ export default function Home() {
     <div className="font-sans">
       <Navigation
         nextButtonFunc={navigateToNecessarySteps}
-        title="Fill necessary information ✍️"
+        title="Smart API Parser 🤖"
       />
 
-      <main className="flex flex-col gap-[32px] row-start-2 items-center justify-center">
+      <main className="flex flex-col gap-[32px] row-start-2 items-center justify-center mt-8">
         <p>This is a WIP of API parser...</p>
       </main>
     </div>
