@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --dark-color: #1e212b;
+  --light-color: #f8f8f8;
 }
 
 @theme inline {
@@ -12,11 +14,18 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+@layer base {
+  h1 { @apply text-4xl font-bold; }
+  h2 { @apply text-3xl font-semibold; }
+  h3 { @apply text-2xl font-semibold; }
+  h4 { @apply text-xl font-medium; }
 }
 
 body {

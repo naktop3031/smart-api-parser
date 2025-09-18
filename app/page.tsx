@@ -1,8 +1,23 @@
+"use client";
+import {useRouter} from "next/navigation";
+import {Navigation} from "@/components/Navigation";
+
 export default function Home() {
+  const router = useRouter();
+
+  const navigateToNecessarySteps = () => {
+    router.push("/steps/necessary");
+  };
+
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        Hello there
+    <div className="font-sans">
+      <Navigation
+        nextButtonFunc={navigateToNecessarySteps}
+        title="Fill necessary information ✍️"
+      />
+
+      <main className="flex flex-col gap-[32px] row-start-2 items-center justify-center">
+        <p>This is a WIP of API parser...</p>
       </main>
     </div>
   );
